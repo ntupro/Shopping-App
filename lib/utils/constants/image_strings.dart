@@ -93,7 +93,7 @@ class TImages {
     kenwoodLogo,
     hermanMillerLogo,
     ikeaLogo,
-    acerlogo
+    acerlogo,
   ];
 
   // -- Animations
@@ -112,11 +112,13 @@ class TImages {
 
   // -- OnBoarding Texts
   static const String onBoardingImage1 =
-      "assets/images/on_boarding_images/sammy-line-searching.gif";
+      "assets/images/on_boarding/on_boarding_1.png";
   static const String onBoardingImage2 =
-      "assets/images/on_boarding_images/sammy-line-shopping.gif";
+      "assets/images/on_boarding/on_boarding_2.png";
   static const String onBoardingImage3 =
-      "assets/images/on_boarding_images/sammy-line-delivery.gif";
+      "assets/images/on_boarding/on_boarding_3.png";
+  static const String rightArrow =
+      "assets/images/on_boarding/right-arrow-1.png";
 
   // -- Products
   static const String productImage5 =
@@ -131,15 +133,16 @@ class TImages {
       "assets/images/products/samsung_s9_mobile_back.png";
   //list of product images
   static const List<String> topProducts = [
-    productImage5,productImage13,
-    productImage12
+    productImage5,
+    productImage13,
+    productImage12,
   ];
   static const List<String> productsImages = [
     productImage13,
     productImage12,
     productImage5,
     productImage6,
-    productImage11
+    productImage11,
   ];
   // -- Product Reviews
   static const String userProfileImage1 =
@@ -156,13 +159,13 @@ class TImages {
       "assets/images/products/promo-banner-2.png";
   static const String promoBanner3 =
       "assets/images/products/promo-banner-3.png";
-//list of banner images
+  //list of banner images
   static List<String> promoBannerImages = [
     promoBanner1,
     promoBanner2,
-    promoBanner3
+    promoBanner3,
   ];
-//list of banners images
+  //list of banners images
   static const String banner1 = "assets/images/banners/banner_1.jpg";
   static const String banner2 = "assets/images/banners/banner_2.jpg";
   static const String banner3 = "assets/images/banners/banner_3.jpg";
@@ -171,7 +174,7 @@ class TImages {
   static const String banner6 = "assets/images/banners/banner_6.jpg";
   static const String banner7 = "assets/images/banners/banner_7.jpg";
   static const String banner8 = "assets/images/banners/banner_8.jpg";
-//list of banner images
+  //list of banner images
   static List<String> bannersImages = [
     banner1,
     banner2,
@@ -180,7 +183,7 @@ class TImages {
     banner5,
     banner6,
     banner7,
-    banner8
+    banner8,
   ];
   //Profile
   static const String user = "assets/images/content/user.png";
