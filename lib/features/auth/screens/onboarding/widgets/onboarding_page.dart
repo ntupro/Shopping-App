@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/features/auth/controllers/onboarding/onboarding_controller.dart';
 
 import '../../../../../utils/constants/image_strings.dart';
 import '../../../../../utils/helpers/helper_functions.dart';
@@ -43,7 +44,7 @@ class OnBoardingPage extends StatelessWidget {
                 const SizedBox(height: 18),
                 GestureDetector(
                   onTap: () {
-                    LoggerHelper.debug("Arrow click...");
+                    OnBoardingController.instance.nextPage();
                   },
                   child: Container(
                     width: 42,

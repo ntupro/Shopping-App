@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:todo_app/utils/constants/colors.dart';
+import 'package:get/get.dart';
+import 'package:todo_app/features/auth/controllers/onboarding/onboarding_controller.dart';
 import 'package:todo_app/utils/constants/image_strings.dart';
 import 'package:todo_app/utils/constants/text_strings.dart';
-import 'package:todo_app/utils/device/device_utility.dart';
-import 'package:todo_app/utils/helpers/helper_functions.dart';
-import 'package:todo_app/utils/helpers/logger_helper.dart';
 
 import 'onboarding/widgets/onboarding_dot_navigation.dart';
 import 'onboarding/widgets/onboarding_page.dart';
@@ -15,11 +12,18 @@ class OnBoardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Inject controller
+    final controller = Get.put(OnBoardingController());
+
     return Scaffold(
       body: Stack(
         children: [
           /// Horizontal Scrollable Pages
           PageView(
+            controller: controller.pageController,
+            onPageChanged: (int index) {
+              controller.currentPageIndex(index);
+            },
             children: const [
               OnBoardingPage(
                 coverImg: TImages.onBoardingImage1,

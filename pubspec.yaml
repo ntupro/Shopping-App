@@ -37,6 +37,7 @@ dependencies:
   flutter_native_splash: ^2.4.6
   logger: ^2.5.0
   smooth_page_indicator: ^1.2.1
+  get: ^4.7.2
 
 dev_dependencies:
   flutter_test:
