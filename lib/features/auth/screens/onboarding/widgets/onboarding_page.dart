@@ -3,7 +3,6 @@ import 'package:todo_app/features/auth/controllers/onboarding/onboarding_control
 
 import '../../../../../utils/constants/image_strings.dart';
 import '../../../../../utils/helpers/helper_functions.dart';
-import '../../../../../utils/helpers/logger_helper.dart';
 
 class OnBoardingPage extends StatelessWidget {
   const OnBoardingPage({

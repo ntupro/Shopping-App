@@ -1,85 +1,31 @@
 import 'package:flutter/material.dart';
 
-// Primary Colors
-const Color primaryRed = Color(0xffEF3F4C); // Bright Red
-const Color primaryGreen = Color(0xff2AC17E); // Vivid Green
-const Color primaryBlue = Color(0xff35A2FF); // Sky Blue
-
-// Secondary Colors
-const Color secondaryPurple = Color(0xff736C8B); // Soft Purple
-const Color secondaryOlive = Color(0xff859D3F); // Olive Green
-const Color secondaryOrange = Color(0xffEB971B); // Warm Orange
-const Color secondarySkyBlue = Color(0xff24B4AA); // Teal Blue
-// Common colors
-const error = Color(0xFFFF4C4C); // Red
-const success = Color(0xFF4CAF50); // Green
-const warning = Color(0xFFFFC107); // Amber
-const info = Color(0xFF2196F3); // Blue
-const transparent = Colors.transparent;
-// Accent Colors
-const Color accentRedText = Color(0xffE11E24); // Deep Red Text
-// Light theme colors
-const lightPrimary = Color(0xFF6C63FF); // Soft Violet
-const lightAccent = Color(0xFFFF6584); // Coral Pink
-const lightBackground = Color(0xFFF2F6FF); // Light Blue-Gray
-const lightSurface = Color(0xFFFFFFFF); // White
-const lightText = Color(0xFF333A56); // Deep Indigo
-// Dark theme colors
-const darkPrimary = Color(0xFF7366FF); // Bright Indigo
-const darkAccent = Color(0xFFFF77A9); // Soft Pink
-const darkBackground = Color(0xFF2A2E45); // Dark Blue-Gray
-const darkSurface = Color(0xFF393F60); // Deep Blue
-const darkText = Color(0xFFE0E6FF); // Soft Blue-Gray
-
 class TColors {
-  // Primary
+  // PRIMARY
+  static const Color primaryDarkerColor = Color(0xFF632207);
+  static const Color primaryDarker02Color = Color(0xFFDF5A22);
   static const Color primaryMainColor = Color(0xFFF16023);
-  static const Color secondary = Color(0xFFFFE24B);
+  static const Color primaryLighterColor = Color(0xFFEE672F);
+  static const Color primaryLighter02Color = Color(0xFFF5804F);
+  static const Color primarySubtleColor = Color(0xFFE3C6A4);
+
+  // SECONDARY
+  static const Color secondary01Color = Color(0xFFD93F21);
+  static const Color secondary02Color = Color(0xFFDF3232);
+  static const Color secondary03Color = Color(0xFFFF4B26);
+  static const Color secondary04Color = Color(0xFFE3AFB1);
+  static const Color secondary05Color = Color(0xFFF3B6B6);
+
   static const Color accent = Color(0xFFb0c7ff);
 
-  // Neutral
+  // NEUTRAL
+  static const Color neutral01Color = Color(0xFF131313);
+  static const Color neutral02Color = Color(0xFF2D2D2D);
+  static const Color neutral03Color = Color(0xFF404040);
+  static const Color neutral04Color = Color(0xFF949494);
+  static const Color neutral05Color = Color(0xFFD9D9D9);
+  static const Color neutral06Color = Color(0xFFE9E9EB);
+  static const Color neutral07Color = Color(0xFFF9F9F9);
+  static const Color neutral08Color = Color(0xFFFCFCFE);
   static const Color neutral09Color = Color(0xFFFFFFFF);
-
-  // // App theme colors
-  // static const Color primary = Color(0xFF4b68ff);
-  // static const Color secondary = Color(0xFFFFE24B);
-  // static const Color accent = Color(0xFFb0c7ff);
-  //
-  // // Text colors
-  // static const Color textPrimary = Color(0xFF333333);
-  // static const Color textSecondary = Color(0xFF6C757D);
-  // static const Color textWhite = Colors.white;
-  //
-  // // Background colors
-  // static const Color light = Color(0xFFF6F6F6);
-  // static const Color dark = Color(0xFF272727);
-  // static const Color primaryBackground = Color(0xFFF3F5FF);
-  //
-  // // Background Container colors
-  // static const Color lightContainer = Color(0xFFF6F6F6);
-  // static Color darkContainer = TColors.white.withValues(alpha: 0.1);
-  //
-  // // Button colors
-  // static const Color buttonPrimary = Color(0xFF4b68ff);
-  // static const Color buttonSecondary = Color(0xFF6C757D);
-  // static const Color buttonDisabled = Color(0xFFC4C4C4);
-  //
-  // // Border colors
-  // static const Color borderPrimary = Color(0xFFD9D9D9);
-  // static const Color borderSecondary = Color(0xFFE6E6E6);
-  //
-  // // Error and validation colors
-  // static const Color error = Color(0xFFD32F2F);
-  // static const Color success = Color(0xFF388E3C);
-  // static const Color warning = Color(0xFFF57C00);
-  // static const Color info = Color(0xFF1976D2);
-  //
-  // // Neutral Shades
-  // static const Color black = Color(0xFF232323);
-  // static const Color darkerGrey = Color(0xFF4F4F4F);
-  // static const Color darkGrey = Color(0xFF939393);
-  // static const Color grey = Color(0xFFE0E0E0);
-  // static const Color softGrey = Color(0xFFF4F4F4);
-  // static const Color lightGrey = Color(0xFFF9F9F9);
-  // static const Color white = Color(0xFFFFFFFF);
 }

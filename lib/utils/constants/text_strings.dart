@@ -1,48 +1,60 @@
 class TTexts {
   // -- GLOBAL Texts
-  static const String and = "and";
-  static const String skip = "Skip";
-  static const String done = "Done";
-  static const String submit = "Submit";
-  static const String appName = "T-Store";
-  static const String tContinue = "Continue";
-  static const String viewAll = "View All";
-  static const String account = "Account";
+  // static const String and = "and";
+  // static const String skip = "Skip";
+  // static const String done = "Done";
+  // static const String submit = "Submit";
+  // static const String appName = "T-Store";
+  // static const String tContinue = "Continue";
+  // static const String viewAll = "View All";
+  // static const String account = "Account";
 
   // views
-  static const String homeView = "Home";
-  static const String cartView = "Cart";
-  static const String profileView = "Profile";
-  static const String wishlistView = "Wishlist";
-  static const String ordersView = "Orders";
-  static const String settingsView = "Settings";
-  static const String storeView = "Store";
+  // static const String homeView = "Home";
+  // static const String cartView = "Cart";
+  // static const String profileView = "Profile";
+  // static const String wishlistView = "Wishlist";
+  // static const String ordersView = "Orders";
+  // static const String settingsView = "Settings";
+  // static const String storeView = "Store";
 
+  // -- Onboarding
   static const String onBoardingTitle1 = "Classy from head to toe";
   static const String onBoardingTitle2 = "Fly away with your style";
   static const String onBoardingTitle3 = "Clothes for a big planet";
 
   // -- Authentication Forms
-  static const String firstName = "First Name";
-  static const String lastName = "Last Name";
-  static const String email = "E-Mail";
+  static const String hello = "Hello";
+  static const String email = "Email";
   static const String password = "Password";
-  static const String newPassword = "New Password";
-  static const String username = "Username";
-  static const String phoneNo = "Phone Number";
   static const String rememberMe = "Remember Me";
-  static const String forgetPassword = "Forget Password?";
+  static const String forgetPassword = "Forgot Password?";
   static const String signIn = "Sign In";
-  static const String createAccount = "Create Account";
-  static const String loading = "Loading";
-  static const String orSignInWith = "Or  Sign In With";
-  static const String orSignUpWith = "or sign up with";
-  static const String iAgreeTo = "I agree to";
-  static const String privacyPolicy = "Privacy Policy";
-  static const String termsOfUse = "Terms of use";
-  static const String verificationCode = "verificationCode";
-  static const String resendEmail = "Resend Email";
-  static const String resendEmailIn = "Resend email in";
+  static const String signInWithGoogle = "Sign In With Google";
+  static const String signInWithFacebook = "Sign In With Facebook";
+  static const String register = "Register";
+  static const String noAccount = "Don't have an account?";
+
+  // static const String firstName = "First Name";
+  // static const String lastName = "Last Name";
+  // static const String email = "E-Mail";
+  // static const String password = "Password";
+  // static const String newPassword = "New Password";
+  // static const String username = "Username";
+  // static const String phoneNo = "Phone Number";
+  // static const String rememberMe = "Remember Me";
+  // static const String forgetPassword = "Forget Password?";
+  // static const String signIn = "Sign In";
+  // static const String createAccount = "Create Account";
+  // static const String loading = "Loading";
+  // static const String orSignInWith = "Or  Sign In With";
+  // static const String orSignUpWith = "or sign up with";
+  // static const String iAgreeTo = "I agree to";
+  // static const String privacyPolicy = "Privacy Policy";
+  // static const String termsOfUse = "Terms of use";
+  // static const String verificationCode = "verificationCode";
+  // static const String resendEmail = "Resend Email";
+  // static const String resendEmailIn = "Resend email in";
 
   // -- Authentication Headings
   static const String loginTitle = "Welcome back,";

@@ -110,7 +110,7 @@ class TImages {
   static const String verifyIllustration =
       "assets/images/animations/sammy-line-travel-backpack-with-passport-and-air-ticket.gif";
 
-  // -- OnBoarding Texts
+  // === OnBoarding Texts ===
   static const String onBoardingImage1 =
       "assets/images/on_boarding/on_boarding_1.png";
   static const String onBoardingImage2 =
@@ -119,6 +119,9 @@ class TImages {
       "assets/images/on_boarding/on_boarding_3.png";
   static const String rightArrow =
       "assets/images/on_boarding/right-arrow-1.png";
+
+  // === Login ===
+  static const String loginCover = "assets/images/login/login_cover.png";
 
   // -- Products
   static const String productImage5 =
