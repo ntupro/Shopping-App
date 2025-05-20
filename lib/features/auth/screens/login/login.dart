@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:todo_app/utils/constants/colors.dart';
 import 'package:todo_app/utils/constants/sizes.dart';
@@ -134,7 +135,10 @@ class LoginScreen extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(Iconsax.google_1),
+                            SvgPicture.asset(
+                              TImages.googleIcon,
+                              semanticsLabel: 'Google Icon',
+                            ),
                             SizedBox(width: 8),
                             Text(TTexts.signInWithGoogle.toUpperCase()),
                           ],
@@ -151,7 +155,10 @@ class LoginScreen extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(Iconsax.facebook),
+                            SvgPicture.asset(
+                              TImages.facebookIcon,
+                              semanticsLabel: 'Facebook Icon',
+                            ),
                             SizedBox(width: 8),
                             Text(TTexts.signInWithGoogle.toUpperCase()),
                           ],

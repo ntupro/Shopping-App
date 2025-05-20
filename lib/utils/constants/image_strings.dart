@@ -117,11 +117,12 @@ class TImages {
       "assets/images/on_boarding/on_boarding_2.png";
   static const String onBoardingImage3 =
       "assets/images/on_boarding/on_boarding_3.png";
-  static const String rightArrow =
-      "assets/images/on_boarding/right-arrow-1.png";
+  static const String rightArrow = "assets/images/on_boarding/right-arrow.svg";
 
   // === Login ===
   static const String loginCover = "assets/images/login/login_cover.png";
+  static const String googleIcon = "assets/images/login/google_icon.svg";
+  static const String facebookIcon = "assets/images/login/facebook_icon.svg";
 
   // -- Products
   static const String productImage5 =

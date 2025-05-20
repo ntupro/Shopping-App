@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:todo_app/features/auth/controllers/onboarding/onboarding_controller.dart';
 
 import '../../../../../utils/constants/image_strings.dart';
@@ -51,10 +52,8 @@ class OnBoardingPage extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(8),
-                      image: DecorationImage(
-                        image: AssetImage(TImages.rightArrow),
-                      ),
                     ),
+                    child: Center(child: SvgPicture.asset(TImages.rightArrow)),
                   ),
                 ),
               ],
