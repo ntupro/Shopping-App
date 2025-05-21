@@ -4,8 +4,8 @@ import 'package:todo_app/features/auth/controllers/onboarding/onboarding_control
 import 'package:todo_app/utils/constants/image_strings.dart';
 import 'package:todo_app/utils/constants/text_strings.dart';
 
-import 'onboarding/widgets/onboarding_dot_navigation.dart';
-import 'onboarding/widgets/onboarding_page.dart';
+import 'widgets/onboarding_dot_navigation.dart';
+import 'widgets/onboarding_page.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
