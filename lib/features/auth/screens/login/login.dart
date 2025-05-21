@@ -174,7 +174,8 @@ class LoginScreen extends StatelessWidget {
                         Text(
                           TTexts.noAccount,
                           style: TTextStyles.bodyRegular12.copyWith(
-                            color: TColors.neutral01Color,
+                            color:
+                                Theme.of(context).textTheme.bodyMedium!.color,
                           ),
                         ),
                         const SizedBox(width: 4),

@@ -20,5 +20,16 @@ class TFillButtonTheme {
   );
 
   /// Customizable Dark Text Theme
-  static FilledButtonThemeData darkFillButtonTheme = FilledButtonThemeData();
+  static FilledButtonThemeData darkFillButtonTheme = FilledButtonThemeData(
+    style: FilledButton.styleFrom(
+      elevation: 0,
+      foregroundColor: TColors.neutral09Color,
+      backgroundColor: TColors.primaryMainColor,
+      disabledForegroundColor: TColors.neutral04Color,
+      disabledBackgroundColor: TColors.neutral05Color,
+      textStyle: TTextStyles.labelMedium12.copyWith(
+        color: TColors.neutral09Color,
+      ),
+    ),
+  );
 }

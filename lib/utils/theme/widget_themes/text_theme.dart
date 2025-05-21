@@ -6,6 +6,13 @@ class TTextTheme {
 
   /// Customizable Light Text Theme
   static TextTheme lightTextTheme = TextTheme(
+    /// DEFAULT FOR ALL APP IF NOT SET
+    bodyMedium: TextStyle(
+      fontFamily: 'Poppins',
+      fontSize: 14,
+      fontWeight: FontWeight.normal,
+      color: TColors.neutral01Color,
+    ),
     headlineLarge: const TextStyle().copyWith(
       fontFamily: 'BebasNeue',
       fontSize: 54.0,
@@ -18,6 +25,12 @@ class TTextTheme {
 
   /// Customizable Dark Text Theme
   static TextTheme darkTextTheme = TextTheme(
+    bodyMedium: TextStyle(
+      fontFamily: 'Poppins',
+      fontSize: 14,
+      fontWeight: FontWeight.normal,
+      color: TColors.neutral09Color,
+    ),
     headlineLarge: const TextStyle().copyWith(
       fontFamily: 'BebasNeue',
       fontSize: 54.0,

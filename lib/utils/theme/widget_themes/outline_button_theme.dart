@@ -12,7 +12,7 @@ class TOutlinedButtonTheme {
           elevation: 0,
           foregroundColor: TColors.neutral01Color,
           textStyle: TTextStyles.labelMedium12.copyWith(
-            color: TColors.neutral01Color,
+            color: TColors.neutral09Color,
           ),
           side: const BorderSide(color: TColors.neutral05Color),
         ),
@@ -20,5 +20,14 @@ class TOutlinedButtonTheme {
 
   /// Customizable Dark Text Theme
   static OutlinedButtonThemeData darkOutlinedButtonTheme =
-      OutlinedButtonThemeData();
+      OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+          elevation: 0,
+          foregroundColor: TColors.neutral09Color,
+          textStyle: TTextStyles.labelMedium12.copyWith(
+            color: TColors.neutral09Color,
+          ),
+          side: const BorderSide(color: TColors.neutral05Color),
+        ),
+      );
 }
