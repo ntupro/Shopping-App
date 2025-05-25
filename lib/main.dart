@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo_app/features/auth/screens/onboarding/on_boarding.dart';
+import 'package:todo_app/features/auth/screens/signup/verify_email.dart';
 import 'package:todo_app/utils/theme/theme.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.dartTheme,
-      home: OnBoardingScreen(),
+      home: VerifyEmail(),
     );
   }
 }
